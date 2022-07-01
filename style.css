@@ -157,6 +157,13 @@ input:valid+span::after {
 input {
     margin-top: 0.2rem;
     display: block;
+    border-radius: 5px;
+    border: solid 1.7px black;
+}
+
+input:focus {
+    outline: none;
+    border: solid 1.7px rgb(255, 0, 43);
 }
 
 button {
